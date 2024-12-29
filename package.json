@@ -1,0 +1,19 @@
+{
+  "name": "wasm-dist",
+  "version": "1.0.0",
+  "description": "Distribution network for wasm libraries",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server --mount=/:/Users/briancullinan/wasm-dist/runtimes"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/briancullinan2/wasm-dist.git"
+  },
+  "author": "Brian Cullinan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/briancullinan2/wasm-dist/issues"
+  },
+  "homepage": "https://github.com/briancullinan2/wasm-dist#readme"
+}

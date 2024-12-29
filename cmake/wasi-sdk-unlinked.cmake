@@ -44,9 +44,10 @@ add_compile_options(-fno-common)
 add_compile_options(-fPIC)
 add_compile_options(-fno-inline)
 add_compile_options(-fno-rtti)
-# add_compile_options(-Wcast-function-type)
 add_compile_options(--no-standard-libraries)
 add_compile_options(-fstrict-aliasing)
+
+add_compile_options(-Wcast-function-type -Wimplicit -Wbad-function-cast )
 
 add_link_options(-Wl,--no-entry)
 add_link_options(--no-standard-libraries)
